@@ -4,7 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
 import Cart from "./components/Cart";
-const Routes: React.SFC = () => (
+const Routes: React.FC = () => (
   <div>
     <Switch>
       <Route
